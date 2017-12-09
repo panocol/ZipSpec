@@ -1,3 +1,3 @@
 # ZipSpec
 
-An idea for now. 
+An idea for now.
