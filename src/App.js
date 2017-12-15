@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import RaisedButton from 'material-ui/RaisedButton'
+import Button from 'material-ui/Button'
 import axios from 'axios'
 import TextField from 'material-ui/TextField'
 
@@ -71,10 +71,9 @@ class App extends Component {
               onChange={this.onChange}
             />
 
-            <RaisedButton
-              type="submit"
-              label="Send Form"
-            />
+            <Button raised type="submit" color="primary">
+              Send Form
+            </Button>
           </form>
 
         </div>
